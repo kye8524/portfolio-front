@@ -1,0 +1,31 @@
+header{
+    width: 1048px;
+    height: 61px;
+    margin: auto auto;
+    background: rgba(0, 0, 0, 0.83);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.header_title{
+    width: 948px;
+    height: 61px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_div{
+    background: rgba(65, 65, 65, 0.58);
+    border-radius: 5px;
+    text-align: center;
+    width: 156px;
+    height: 35px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
