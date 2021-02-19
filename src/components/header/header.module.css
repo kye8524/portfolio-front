@@ -1,31 +1,33 @@
-header{
-    width: 1048px;
-    height: 61px;
+a:link{ color: white; text-decoration: none;}
+a:visited{ color: white; text-decoration: none;}
+.headerDiv:hover{ color: #FFEB3C; text-decoration: none;}
+
+.headerBox{
+    width: 957.79px;
+    height: 51.1px;
     margin: auto auto;
     background: rgba(0, 0, 0, 0.83);
     border-radius: 6px;
     display: flex;
     align-items: center;
 }
-.header_title{
-    width: 948px;
-    height: 61px;
+.headerTitle{
+    width: 900px;
+    height: 51px;
     margin: auto auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header_div{
+.headerDiv{
     background: rgba(65, 65, 65, 0.58);
     border-radius: 5px;
     text-align: center;
-    width: 156px;
-    height: 35px;
+    width: 142.57px;
+    height: 29.32px;
     font-family: Reem Kufi;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
-
 }

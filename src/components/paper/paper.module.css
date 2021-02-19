@@ -1,0 +1,41 @@
+.paper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    width:100%;
+    z-index: 0;
+    animation-duration: 2s;
+    animation-name: slidein;
+    padding-top: 100px;
+}
+
+@keyframes slidein {
+    from{
+        margin-top: 100%;
+    }
+    to{
+        margin-top: 394px;
+    }
+}
+
+.paper1 {
+    background-image: url("./paper1.svg");
+    width:660px;
+    height:492px;
+    z-index: 0;
+    margin-top: 260px;
+}
+
+a:hover {
+    transform : scale(1.05);
+}
+
+.paper2{
+    background-image: url("./paper2.svg");
+    width:417px;
+    height:600px;
+    display: flex;
+    z-index: 0;
+    margin-bottom: -100px;
+}

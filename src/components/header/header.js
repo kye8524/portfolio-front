@@ -1,18 +1,17 @@
+import styles from './header.module.css';
 import React from "react";
-import "./header.css";
 
-function header() {
+function Header() {
     return (
-        <header>
-        <div className="header_title">
-            <div className="header_div">HOME</div>
-            <div className="header_div">ABOUT</div>
-            <div className="header_div">PORTFOLIO</div>
-            <div className="header_div">BLOG</div>
-            <div className="header_div">CONTACT</div>
-        </div>
-        </header>
-    );
+        <div className={styles.headerBox}>
+        <div className={styles.headerTitle}>
+            <a href="#home"><div className={styles.headerDiv}>HOME</div></a>
+            <a href="#about"><div className={styles.headerDiv}>ABOUT</div></a>
+            <a href="#portfolio"><div className={styles.headerDiv}>PORTFOLIO</div></a>
+            <a href="#blog"><div className={styles.headerDiv}>BLOG</div></a>
+            <a href="#contact"><div className={styles.headerDiv}>CONTACT</div></a>
+        </div></div>
+    )
 }
 
-export default header;
+export default Header;
