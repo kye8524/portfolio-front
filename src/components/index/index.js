@@ -1,5 +1,6 @@
 import styles from './index.module.css';
 import React from "react";
+import IndexMessage from "../indexMessage/indexMessage";
 import Header from "../header/header";
 import Paper from "../paper/paper";
 
@@ -9,6 +10,7 @@ function Index() {
             <div className={styles.indexBack}>
             <div className={styles.notebook}>
                 <Header/>
+                <IndexMessage/>
                 <div className={styles.inBox}>
 
                 </div>

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 a:link{ color: white; text-decoration: none;}
 a:visited{ color: white; text-decoration: none;}
 .headerDiv:hover{ color: #FFEB3C; text-decoration: none;}
